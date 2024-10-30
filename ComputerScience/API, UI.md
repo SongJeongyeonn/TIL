@@ -2,17 +2,21 @@
 공통점: Interface
 
 차이점: UI는 User, API는 Application Programing
-# API
+# API(Application Programing Interface)
+소프트웨어의 기능을 다른 프로그램에서 사용하게 해주는 인터페이스이다.
+
 ```
 System.out.println(1) // System이라는 클래스의 out 맴버가 가진 println() 메서드
 ```
-println과 같이 자바 시스템을 제어하기 위해 자바에서 제공하는 명령어
+자바 api는 println과 같이 자바 시스템을 제어하기 위해 자바에서 제공하는 명령어들을 말한다.
 
 운영 체제나 프로그래밍 언어가 **제공하는 기능을 제어할 수 있게 만든 인터페이스**를 **API**라고 한다.
+
 ### API 문서
 API는 방대하기 때문에 이것을 이용하기 위해서 API 목록과 사용법이 체계적으로 정리된 문서를 이용할 수 있어야한다.
 
 https://docs.oracle.com/javase/7/docs/api/index.html
+
 # UI(User Interface)
 컴퓨터와 사용자와 만나는 모든 부분이다. ex) 입력장치, 홈페이지 등
 
