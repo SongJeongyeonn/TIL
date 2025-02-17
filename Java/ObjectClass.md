@@ -34,6 +34,10 @@ Student s2 = new Student("egoing");
 System.out.println(s1 == s2); // 겉(내용)만 비교
 System.out.println(s1.equals(s2)); // 본질(객체)을 비교
 ```
+s1과 s2는 서로 **다른 객체**이며 **논리적으로는** "egoing"이라는 **같은 값**을 가지고 있기 때문에
+
+**'=='** 로 비교하였을 때는 **true**가 나오고, **'equals'** 로 비교하였을 때는 **false**가 나온다.
+
 **equals**는 **접근제어자는 public**이며, **반환타입은 불리안**이라는 특징을 가지고 있다.
 
 ### finalize
